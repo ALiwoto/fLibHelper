@@ -26,7 +26,7 @@ func (c *FLibClient) CollectGold(opt *ReqOptions) (string, error) {
 	}
 	req, err := http.NewRequest(http.MethodPost, c.BaseUrl+"/cards/collectgold", data)
 	if err != nil {
-		return "", nil
+		return "", err
 	}
 
 	req.Header.Set("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8")
