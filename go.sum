@@ -1,0 +1,4 @@
+github.com/AnimeKaizoku/ssg v1.1.30 h1:6atoo5p/bklWmoPk87DptaxWIPFR3AsEpKZsemzkKhI=
+github.com/AnimeKaizoku/ssg v1.1.30/go.mod h1:9+l9BoznXt8p3dkxVKv3dwIyogFeUhnrnihW4rOMNJE=
+golang.org/x/text v0.9.0 h1:2sjJmO8cDvYveuX97RDLsxlyUxLl+GHoLxBiRdHllBE=
+golang.org/x/text v0.9.0/go.mod h1:e1OnstbJyHTd6l/uOt8jFFHp6TRDWZR/bV3emEE/zU8=
