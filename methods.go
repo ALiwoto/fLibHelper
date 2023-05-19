@@ -47,7 +47,7 @@ func (c *FLibClient) LoadFP(opt *ReqOptions) (string, error) {
 }
 
 func (c *FLibClient) invokeCommonPostRequest(path string, data io.Reader, contentLen int) (string, error) {
-	req, err := http.NewRequest(http.MethodPost, c.BaseUrl+"/player/load", data)
+	req, err := http.NewRequest(http.MethodPost, c.BaseUrl+path, data)
 	if err != nil {
 		return "", err
 	}
